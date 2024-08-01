@@ -15,7 +15,7 @@ async function dbConnect(): Promise<void> {
     }
 
     try {
-        const db = await mongoose.connect("mongodb+srv://sarvagyaacharya:Sarvagya%401234@cluster0.fyiyfyj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" || '', {});
+        const db = await mongoose.connect("mongodb+srv://21ucs183:Sarvagya%401234@cluster0.tnbdzzl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" || '', {});
         connection.isConnected = db.connections[0].readyState;
     } catch (error) {
         console.log("DB connection falied", error);
